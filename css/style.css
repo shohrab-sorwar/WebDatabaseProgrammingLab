@@ -1,0 +1,50 @@
+#head h2{color: red}
+img{height: 200px; width: 100%}
+#head{  background-color: aqua;
+        height: 200;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+
+     }
+
+#menue{   background-color: green;
+            height: 100;
+            width: 100%;
+            left: 0px;
+            top: 202px;
+            color: white;
+            font-size: 30px;
+            position: absolute;
+
+
+     }
+
+#sidebar{   background-color: orangered;
+            height: 400;
+            width: 20%;
+            left: 0px;
+            top: 304px;
+            position: absolute;
+            text-align: center;
+
+     }
+
+#contant{   background-color: orange;
+            height: 400;
+            width: 80%;
+            right: 0px;
+            top: 304px;
+            position: absolute;
+
+     }
+
+#footer{   background-color: skyblue;
+            height: 100;
+            width: 100%;
+            left: 0px;
+            top: 706px;
+            position: absolute;
+
+     }
