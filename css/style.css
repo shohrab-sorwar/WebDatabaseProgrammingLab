@@ -37,10 +37,11 @@ img{height: 200px; width: 100%}
             right: 0px;
             top: 304px;
             position: absolute;
+            
 
      }
 
-#footer{   background-color: skyblue;
+#footer{   background-color: rgb(45, 168, 45);
             height: 100;
             width: 100%;
             left: 0px;
