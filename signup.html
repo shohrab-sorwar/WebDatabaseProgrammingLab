@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+
+    <table border="2" style="background-color: rgb(157, 230, 41)"; align="center">
+        <caption><h1>Registration Form</h1></caption>
+        <thead>
+            <th>Field Name</th>
+            <th>Input</th>
+        </thead>
+
+        <tbody>
+            <form action="/submit" method="post";>
+                <tr><td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" placeholder="Enter your username" required></td></tr>
+        
+                <tr><td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password" required></td></tr>
+                
+                <tr>
+                    <td rowspan="2"><label>Gender:</label></td>
+                    <td><input type="radio" name="gender" value="male" id="male" required>
+                        <label for="male">Male</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="gender" value="female" id="female" required>
+                        <label for="female">Female</label>
+                        </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="quantity">Quantity:</label></td>
+                    <td><input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1" required></td>
+                </tr>
+                
+                <tr><td><label for="volume">Volume:</label></td>
+                    <td><input type="range" id="volume" name="volume" min="0" max="100" value="50"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="birthdate">Birthdate:</label></td>
+                    <td><input type="date" id="birthdate" name="birthdate" required></td>
+                </tr>
+        
+                <tr>
+                    <td><label for="meeting-time">Meeting Time:</label></td>
+                    <td><input type="time" id="meeting-time" name="meeting-time" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="website">Website URL:</label></td>
+                    <td><input type="url" id="website" name="website" placeholder="Enter your website URL" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="file-upload">Profile Picture:</label></td>
+                    <td><input type="file" id="file-upload" name="file-upload"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="message">Additional Comments:</label></td>
+                    <td><textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+
+            </form>
+        </tbody>
+    </table> 
+</body>
+
+</html>
